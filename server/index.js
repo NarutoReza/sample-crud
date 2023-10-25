@@ -12,8 +12,7 @@ const Routes = require('./Routes/Routes')
 app.use('/', Routes)
 
 mongoose
-    .connect("mongodb+srv://NarutoReza59:giveitatry@cluster0.f54xism.mongodb.net/?retryWrites=true&w=majority"
-    )
+    .connect("////")
     .then(() => {
         console.log("Database is live!")
     });
